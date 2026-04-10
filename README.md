@@ -51,7 +51,7 @@ Esto evita que cualquier persona pueda escribir en tu diario.
 
 | Variable | Valor de ejemplo |
 |---|---|
-| `WRITE_KEY` | `camino2026daya!` (elige la tuya) |
+| `WRITE_KEY` | `tucontraseña!` (elige la tuya) |
 | `NEXT_PUBLIC_WRITE_KEY` | La misma que arriba |
 
 3. Haz clic en **Save** y luego **Redeploy**
