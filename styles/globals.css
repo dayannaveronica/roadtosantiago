@@ -61,3 +61,28 @@ button { font-family: 'Poppins', sans-serif; }
 .day-str  .d-lbl, .day-str  .d-main { color: var(--coral); }
 .day-rest .d-lbl, .day-rest .d-main { color: var(--muted2); }
 .day-sun  .d-lbl, .day-sun  .d-main { color: #b8950a; }
+
+/* ── RESPONSIVE ─────────────────────────────────── */
+@media (max-width: 639px) {
+  /* Days in plan - tighter */
+  .d-ico  { font-size: 13px !important; }
+  .d-main { font-size: 9px  !important; }
+  .d-lbl  { font-size: 8px  !important; }
+
+  /* Phase nav scroll */
+  .plan-phase-nav { overflow-x: auto; white-space: nowrap; }
+
+  /* Map height on mobile */
+  .map-container { height: 280px !important; }
+
+  /* Ruta detail card below map */
+  .etapa-detail { margin-top: 0; }
+
+  /* Dash hero tighter */
+  .dash-hero { padding: 1.75rem 1.25rem 1.5rem !important; }
+}
+
+@media (max-width: 400px) {
+  .days-row { grid-template-columns: repeat(7, 1fr); }
+  .day { padding: .4rem .15rem !important; }
+}

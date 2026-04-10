@@ -147,7 +147,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div style={{ maxWidth: 860, margin: '0 auto', padding: '2rem 2rem 5rem' }}>
+      <div style={{ maxWidth: 860, margin: '0 auto', padding: 'clamp(1rem, 4vw, 2rem) clamp(1rem, 4vw, 2rem) 6rem' }}>
 
         {/* CHECK-IN CARD */}
         {entry && entry.type !== 'sun' && (
@@ -259,7 +259,7 @@ export default function Home() {
         )}
 
         {/* STATS */}
-        <div style={{ display:'grid', gridTemplateColumns:'repeat(4,1fr)', gap:'1rem', marginBottom:'1rem' }}>
+        <div style={{ display:'grid', gridTemplateColumns:'repeat(2,1fr)', gap:'1rem', marginBottom:'1rem' }}>
           {[
             { n: stats.done, label:'Días completados', color:'var(--teal)' },
             { n: stats.streak, label:'Racha actual', color:'var(--coral)' },

@@ -58,7 +58,7 @@ export default function Diario() {
 
   return (
     <Layout>
-      <div style={{ maxWidth: 860, margin: '0 auto', padding: '2rem 2rem 5rem' }}>
+      <div style={{ maxWidth: 860, margin: '0 auto', padding: 'clamp(1rem, 4vw, 2rem) clamp(1rem, 4vw, 2rem) 6rem' }}>
 
         <div style={{ marginBottom: '2rem' }}>
           <h1 style={{ fontSize: '1.75rem', fontWeight: 700, color: 'var(--text)', marginBottom: '.25rem' }}>Mi Diario 📖</h1>

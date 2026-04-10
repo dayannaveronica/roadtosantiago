@@ -59,7 +59,7 @@ export default function Ruta() {
 
   return (
     <Layout>
-      <div style={{ maxWidth: 900, margin: '0 auto', padding: '2rem 2rem 5rem' }}>
+      <div style={{ maxWidth: 900, margin: '0 auto', padding: 'clamp(1rem, 4vw, 2rem) clamp(1rem, 4vw, 2rem) 6rem' }}>
         <div style={{ marginBottom: '1.5rem' }}>
           <h1 style={{ fontSize: '1.75rem', fontWeight: 700, color: 'var(--text)', marginBottom: '.25rem' }}>La Ruta 🗺</h1>
           <p style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 300 }}>Camino Portugués de la Costa · Baiona → Santiago de Compostela</p>
@@ -81,7 +81,7 @@ export default function Ruta() {
         </div>
 
         {/* Layout: map + detail */}
-        <div style={{ display:'grid', gridTemplateColumns:'1fr 320px', gap:'1.5rem' }}>
+        <div style={{ display:'grid', gridTemplateColumns:'1fr', gap:'1.5rem' }}>
 
           {/* Map */}
           <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:14, overflow:'hidden', height:420, position:'relative', boxShadow:'var(--sh)' }}>
